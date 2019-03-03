@@ -1,0 +1,112 @@
+body{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #26A6BF;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+header h1{
+	font-family: 'Srisakdi', cursive;
+	font-size: 45px;
+	display: inline;
+}
+
+header img{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+nav{
+	background-color: #AAF2E6;
+	margin: 0 10px;
+}
+
+nav ul{
+	list-style-type: none;
+	display:flex; 
+	justify-content: space-around;
+	text-transform: uppercase;
+	padding: 10px 0;
+	margin: 5px 0
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+.split-line{
+	height: 5px;
+	width: 100%;
+	margin: 10px 0;
+	background-color: #2D6480;
+}
+
+.wrapper{
+	display: flex;
+	padding: 0 10px;
+}
+
+.wrapper h2{
+	font-family: 'Srisakdi', cursive;
+	font-size: 35px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.column {
+	padding: 10px;
+/*  height: 300px;*/
+	background-color: #AAF2E6;
+}
+
+.left{
+	width: 75%;
+	margin-right: 10px
+}
+
+.rigth{
+	width: 25%;
+}
+
+.rigth img{
+	float: left;
+	width: 50%;
+	height: 150px;
+	margin-bottom: 5px
+}
+
+.rigth table{
+	text-align: center;
+	background-color: azure;
+	width: 100%
+}
+
+.rigth table td, .rigth table th{
+	border: 1px solid black;
+}
+
+.rigth table tr:nth-child(n+2) td:nth-child(n+6){
+	background-color: cornsilk;
+}
+
+.rigth table tr:nth-child(3) td:nth-child(-n+4), .rigth table tr:last-child td:nth-child(-n+5){
+	background-color:cornflowerblue;
+}
+
+.rigth table tr:nth-child(4) td:nth-child(5){
+	background-color: crimson;
+}
+
+footer{
+	margin: 0 10px;
+}
